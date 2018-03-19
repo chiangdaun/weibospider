@@ -33,7 +33,7 @@ SCHEDULER_PERSIST = True
 MYSQL_HOST='120.76.192.186'
 MYSQL_DBNAME='isearch5'
 MYSQL_USER='root'
-MYSQL_PASSWORD='isearch.cs.swust'
+MYSQL_PASSWORD='XXXXX'
 
 '''Redis config'''
 REDIE_URL = None

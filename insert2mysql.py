@@ -1,7 +1,7 @@
 import pymysql
 
 # 打开数据库连接
-db = pymysql.connect("120.76.192.186", "root", "isearch.cs.swust", "isearch5",use_unicode=True, charset="utf8")
+db = pymysql.connect("120.76.192.186", "root", "XXXXXX", "isearch5",use_unicode=True, charset="utf8")
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()

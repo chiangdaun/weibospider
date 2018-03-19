@@ -76,7 +76,7 @@ class sinaSpider(Spider):
 
     def get_nickname(self):#从数据库读id
         # 打开数据库连接
-        db = pymysql.connect("120.76.192.186", "root", "isearch.cs.swust", "isearch5", use_unicode=True, charset="utf8")
+        db = pymysql.connect("120.76.192.186", "root", "XXXXXX", "isearch5", use_unicode=True, charset="utf8")
         cursor = db.cursor()  # 使用 cursor() 方法创建一个游标对象 cursor
         sel = "select nick_name from nickname"
         cursor.execute(sel)  # 执行查询操作
